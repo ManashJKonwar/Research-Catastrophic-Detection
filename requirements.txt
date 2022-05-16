@@ -1,0 +1,3 @@
+# Data Generation and Manipulation
+# ------------------------------------------------------------------------------
+pandas==1.4.2  # https://pypi.org/project/pandas/1.4.2/  # Dataframe Related Operations
