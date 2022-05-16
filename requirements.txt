@@ -1,3 +1,4 @@
 # Data Generation and Manipulation
 # ------------------------------------------------------------------------------
 pandas==1.4.2  # https://pypi.org/project/pandas/1.4.2/  # Dataframe Related Operations
+matplotlib==3.5.2  # https://pypi.org/project/matplotlib/3.5.2/  # Creating static, animated, and interactive visualizations in Python
