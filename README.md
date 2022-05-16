@@ -3,27 +3,29 @@ The sole purpose of this research work is to predict catastrophic events such as
 
 Important definitions:  
 1. **Time Series Analysis (TSA):** A time series is nothing but a sequence of various data points that occurred in a successive order for a given period of time.  
-**Objectives:**  
-* To understand how time series works, what factors are affecting a certain variable(s) at different points of time.  
-* Time series analysis will provide the consequences and insights of features of the given dataset that changes over time.  
-* Supporting to derive the predicting the future values of the time series variable.  
-**Assumptions:**  
-There is one and the only assumption that is “stationary”, which means that the origin of time, does not affect the properties of the process under the statistical factor.  
+    **Objectives:**  
+    * To understand how time series works, what factors are affecting a certain variable(s) at different points of time.  
+    * Time series analysis will provide the consequences and insights of features of the given dataset that changes over time.  
+    * Supporting to derive the predicting the future values of the time series variable.  
+    **Assumptions:**  
+    There is one and the only assumption that is “stationary”, which means that the origin of time, does not affect the properties of the process under the statistical factor.  
 
 2. **Significance of TSA:** TSA is the backbone for prediction and forecasting analysis, specific to the time-based problem statements.  
-* Analyzing the historical dataset and its patterns.  
-* Understanding and matching the current situation with patterns derived from the previous stage.  
-* Understanding the factor or factors influencing certain variable(s) in different periods.  
+    * Analyzing the historical dataset and its patterns.  
+    * Understanding and matching the current situation with patterns derived from the previous stage.  
+    * Understanding the factor or factors influencing certain variable(s) in different periods.  
 
 3. **Components of TSA:** 
-* Trend
-* Seasonality  
-* Cyclical  
-* Irregularity  
+    * Trend
+    * Seasonality  
+    * Cyclical  
+    * Irregularity  
 
 4. **Stationary or Non-Stationary:**  
-* **Stationary:** Date where the mean, variance and Covariance are constant with time can be classified as stationary data.
-* **Non-Stationary:** Opposite of Stationary. Most of the real time TSA data is in non stationary form.
+    * **Stationary:**  
+    Date where the mean, variance and Covariance are constant with time can be classified as stationary data.
+    * **Non-Stationary:**  
+    Opposite of Stationary. Most of the real time TSA data is in non stationary form.
 
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
