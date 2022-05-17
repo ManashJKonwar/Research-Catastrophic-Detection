@@ -4,7 +4,9 @@ The sole purpose of this research work is to predict catastrophic events such as
 ## Requirements  
 1. Create Conda Environment first  
     $ conda create --name TSACatastrophicVenv python=3.8  
-2. Activate the Environment and Install Darts  
+2. Activate the Environment  
+    $ conda activate TSACatastrophicVenv
+3. Install Darts using conda-forge  
     $ conda install -c conda-forge -c pytorch u8darts-all
 
 ## Important definitions:  
