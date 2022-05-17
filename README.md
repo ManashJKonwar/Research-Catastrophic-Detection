@@ -1,7 +1,13 @@
 # Research-Catastrophic-Detection
 The sole purpose of this research work is to predict catastrophic events such as heavy rainfall, floods, etc using state of the art technique which includes time series forecasting, CNN, RNN, etc  
 
-Important definitions:  
+## Requirements  
+1. Create Conda Environment first  
+    $ conda create --name TSACatastrophicVenv python=3.8  
+2. Activate the Environment and Install Darts  
+    $ conda install -c conda-forge -c pytorch u8darts-all
+
+## Important definitions:  
 1. **Time Series Analysis (TSA):** A time series is nothing but a sequence of various data points that occurred in a successive order for a given period of time.  
     **Objectives:**  
     * To understand how time series works, what factors are affecting a certain variable(s) at different points of time.  
@@ -21,11 +27,19 @@ Important definitions:
     * Cyclical  
     * Irregularity  
 
-4. **Stationary or Non-Stationary:**  
-    * **Stationary:**  
+4. **Stationarity or Non-Stationarity:**  
+    * **Stationarity:**  
     Date where the mean, variance and Covariance are constant with time can be classified as stationary data.
-    * **Non-Stationary:**  
+    * **Non-Stationarity:**  
     Opposite of Stationary. Most of the real time TSA data is in non stationary form.
+
+Stationarity Tests:  
+1. **Statistical Test:** There are 2 tests available which can help us to determine whether the dataset under porcess is Stationarity or not.  
+    * Augmented Dickey-Fuller (ADF) Test:  
+        - Null Hypothesis (H0): Series is non-stationary.  
+        - Alternate Hypothesis (HA): Series is stationary. If p-value>0.05, fail to reject H0 and if p-value<=0.05 then accept H1.  
+    * Kwiatkowski–Phillips–Schmidt–Shin (KPSS) Test:  
+        - This test is used for testing a Null Hypothesis (H0), that will perceive the time-series, as stationary around a deterministic trend against the alternative of a unit root.
 
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
