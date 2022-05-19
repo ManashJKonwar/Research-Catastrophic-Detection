@@ -8,6 +8,8 @@ The sole purpose of this research work is to predict catastrophic events such as
     $ conda activate TSACatastrophicVenv
 3. Install Darts using conda-forge  
     $ conda install -c conda-forge -c pytorch u8darts-all
+4. Install Dependencies
+    $ conda install -c conda-forge ipywidgets
 
 ## Important definitions:  
 1. **Time Series Analysis (TSA):** A time series is nothing but a sequence of various data points that occurred in a successive order for a given period of time.  
