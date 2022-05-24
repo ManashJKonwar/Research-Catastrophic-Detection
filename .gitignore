@@ -131,3 +131,4 @@ dmypy.json
 # extra directories/files
 .vscode/*
 rainfall_prediction/data/*
+rainfall_prediction/supportings_notebooks/darts_logs/*
