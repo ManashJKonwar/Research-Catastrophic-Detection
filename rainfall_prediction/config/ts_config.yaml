@@ -1,0 +1,8 @@
+preprocessing_parameters:
+  library_utilized: 'darts'
+  input_file_path: 'rainfall_prediction\data\jennings_ghcnd.csv'
+  date_column: 'DATE'
+  params: 
+    granularity: 'M' # ['D', 'M', 'Y']
+training_parameters:
+  library_utilized: 'darts'
